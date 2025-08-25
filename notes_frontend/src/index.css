@@ -1,0 +1,12 @@
+/* Base document styles */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:focus-visible {
+  outline: 2px solid #1976d2;
+  outline-offset: 2px;
+}
