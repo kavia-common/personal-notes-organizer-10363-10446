@@ -29,6 +29,8 @@ Expected table `notes` with columns:
 - created_at: timestamptz default now()
 - updated_at: timestamptz default now()
 
+To provision the schema and RLS policies, see assets/supabase.md for the exact SQL and troubleshooting steps.
+
 ## Scripts
 - `npm start` - start dev server
 - `npm test` - run tests
@@ -49,4 +51,3 @@ Expected table `notes` with columns:
 ## Notes
 - Configuration is via .env; do not hard-code keys.
 - Sync button reloads notes from Supabase.
-
